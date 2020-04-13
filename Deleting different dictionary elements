@@ -1,0 +1,20 @@
+#creating a new dictionary with assigned values
+dict1={
+    "Name":"Berin",
+    "Age":"19",
+    "Course":"Chemical",
+    "Year":"2nd"
+}
+print(dict1)
+#poping an element from dictionary
+dict1.pop("Year")
+print(dict1.get("Year"))
+#deleting elements from a dictionary
+del dict1["Age"]
+del dict1["Course"]
+print(dict1)
+#clearing the dictionary without deleting the dictionary
+dict1.clear()
+print(dict1)
+#deleting the dictionary
+del dict1
