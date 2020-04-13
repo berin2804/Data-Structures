@@ -1,0 +1,14 @@
+#creating a new tuple
+tup1=("Emerald", "Ruby", "Saphire", "Topaz")
+#printing the entire tuple
+print(tup1)
+#accessing all the elements of the tuple individually
+print(tup1[0])
+print(tup1[1])
+print(tup1[2])
+print(tup1[3])
+#accessing the elements from second to the last one
+print(tup1[1:])
+#accessng the elements from first to third one
+print(tup1[:3])
+ Accessing 
