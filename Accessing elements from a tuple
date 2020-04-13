@@ -11,4 +11,3 @@ print(tup1[3])
 print(tup1[1:])
 #accessng the elements from first to third one
 print(tup1[:3])
- Accessing 
